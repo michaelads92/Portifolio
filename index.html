@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michael Allan Developer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+            <!--Código do menu-->   
+
+                <!--Menu prinpal-->
+                <nav>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#sobre">Sobre mim</a></li>
+                        <li><a href="#formacao">Formação</a></li>
+                        <li><a href="#Projetos">Projetos</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </nav>             
+            </div>
+        </div>
+        <!--Logo e intro-->
+        <div class="flex" id="home">
+            <div class="intro">
+                <h1>Olá, eu sou </h1>
+                <h2 id="typing-text">Michael Allan.</h2>
+                <h3>Desenvolvedor front-end.<h3>
+            </div>
+            <div class="logo">
+                <img src="img/logo-1.png">
+            </div>
+        </div>
+    </header> 
+     <!--campo sobre mim-->   
+        <section class="sobre" id="sobre">
+            <h2>Sobre mim</h2>
+            <p>Sou Michael Allan estudante de analise desevolvedor de sistemas, sou da cidade de Curitiba-PR. Tenho conhecimento básico em html, CSS, JavaScript, Python, DB Designer e MySQL. Sou um desenvolvedor front-end em formação sempre em busca de novos conhecimentos a novas formas de trabalho e aprendizado.
+            </p>
+        <!--campo com imagems de habilidade-->     
+        <div class="habilidades" id="habilidades">
+            <img src="img/html.png" alt="html">
+            <img src="img/CSS3.png" alt="css3">
+            <img src="img/logo-javascript-icon-1024.png" alt="JavaScript">
+            <img src="img/Python1.png" alt="Python">
+        </div>
+        <!--campo onde expecifico minhas formações-->  
+     </section>
+    <section class="formacao" id="formacao">
+        <h2>Formação</h2>
+        <p>Sou formado em Web Designer pelas escola de tecnologia CD6 e estou cursando Analise Desenvolvimento de Sistemas pela univerdidade Uninter, com inicio no primeiro semestre de 2024 e termino primeiro semestre de 2026
+        </p>
+    </section>
+    <!--campo onde coloco meus projetos realizados--> 
+        <div class="projetos" id="Projetos">
+            <h2>Projetos</h2>
+            <h3>Em desenvolvimento...</h3>
+        </div>
+        <!--campo onde coloco links para contatos--> 
+        <h2 class="contato" id="contato">Contatos</h2>                   
+        <div class="contatologos">
+            <a href="https://github.com/" target="_blank">
+                <img src="img/github.png" alt="github" >
+            </a>
+            <a href="https://www.linkedin.com/in/michael-allan-melo-de-souza-aa3a00295?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+            <img src="img/linkedin-1.png" alt="linkdin">
+            </a>
+            <a href="https://wa.me/5541995196845" target="_blank">
+                <img src="img/whats.png" alt="whats">
+            </a>
+            <br>            
+        </div>
+        <!--campo com formulario para contato--> 
+        <form class="contatoform" id="contato">
+            <label for="nome">Nome:</label>
+           
+            <input type="text" id="nome" name="nome" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" required>
+            <br>       
+            <label for="mensagem">Mensagem:</label><br>
+            <textarea id="mensagem" name="mensagem" placeholder="Digite aqui sua mensagem..." required></textarea>
+            <br>
+            <input type="submit" value="Enviar" class="botao">
+        </form>          
+        
+    
+</body>
+</html>
